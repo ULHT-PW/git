@@ -51,11 +51,11 @@ Por exemplo:
 # Quero guardar o meu novo projeto no GitHub
 <img src="https://user-images.githubusercontent.com/42048382/221045425-cdfb2233-5338-429d-9fdb-e5c10cc2c172.png" width="100px">
 
-Se já fez os passos anteriores, pode sincronizar pela primeira vez o repositório local &rarr; repositório remoto GitHub da seguinte forma:
+Se já fez os passos anteriores, pode sincronizar pela primeira vez o repositório local &rarr; repositório remoto GitHub:
 
-1. na página do GitHub, crie um repositório remoto, com o nome <repo_name>
+1. na página do GitHub, crie um repositório remoto <repo_name>
 
-2. **sincronize os conteúdos** do repositório local mo repositório remoto GitHub da seguinte forma:
+2. **sincronize os conteúdos** no repositório remoto GitHub:
    ```Bash
     $ git remote add origin https://github.com/<username>/<repo_name.git>
     $ git push -u origin main

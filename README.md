@@ -1,14 +1,13 @@
-# git
+# Repositórios no Git
 
-# 1. Repo GitHub 
 Os ficheiros do seu laboratório poderão existir em três sítios: 
-* no PythonAnyWhere, 
+* no PythonAnyWhere
 * no GitHub 
 * no PC. 
 
-Vamos aprender como transferir os conteúdos para cada uma destes sítios.
+Vamos aprender como transferir os conteúdos de e para cada uma destes sítios.
 
-Nota: Se não estiver familiarizado com o Git, veja os [videos e slides sobre git](https://moodle.ensinolusofona.pt/course/view.php?id=9482#section-3). Eis o link direto para os {videos sobre git](https://educast.fccn.pt/vod/channels/1pc3vu3zkk?locale=pt) se tiver alguma dúvida.
+Se não estiver familiarizado com o Git, veja os [videos e slides sobre git](https://moodle.ensinolusofona.pt/course/view.php?id=9482#section-3). Eis o link direto para os {videos sobre git](https://educast.fccn.pt/vod/channels/1pc3vu3zkk?locale=pt) se tiver alguma dúvida.
 
 ### Criar novo repositório local
 

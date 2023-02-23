@@ -40,7 +40,7 @@ Consideremos que tem o seu projeto no PythonAnyWhere/PC mas ainda não tem nem r
    ```   
 
 ### Sincronizar repositório local --> repositorio remoto no GitHub já existente
-<img src="https://user-images.githubusercontent.com/42048382/221045530-175d4ee3-0c9c-4513-ab9d-cd2900987236.png" width="100px">
+<img src="https://user-images.githubusercontent.com/42048382/221045425-cdfb2233-5338-429d-9fdb-e5c10cc2c172.png" width="100px">
     
 Se fizer alterações no seu repositório no PythonAnywhere/PC, pode sincronizar com o repo do GitHub da segunte forma:
    ```Bash
@@ -50,7 +50,7 @@ Se fizer alterações no seu repositório no PythonAnywhere/PC, pode sincronizar
    ```
         
 ### "Clonar" repositório GitHub --> máquina sem repositório
-<img src="https://user-images.githubusercontent.com/42048382/221045425-cdfb2233-5338-429d-9fdb-e5c10cc2c172.png" width="100px">
+<img src="https://user-images.githubusercontent.com/42048382/221045530-175d4ee3-0c9c-4513-ab9d-cd2900987236.png" width="100px">
 
 Basta fazer um clone do que tem no GitHub para a pasta que especificar. PAra tal, na máquina onde quer ter os conteúdos do repositório GitHub, faça:
 

@@ -1,13 +1,13 @@
 # GIT
 
-Uma pasta com os ficheiros do seu laboratório pode existir em três sítios: 
+Considere o seu laboratório de PW uma pasta com ficheiros. Esta pode estar em três sítios: 
 * no PC
 * no GitHub 
 * no PythonAnyWhere
 
-Vamos aprender como transferir os conteúdos da pasta entre estes sítios. 
+**Objetivo**:  aprender como transferir os conteúdos da pasta entre estes sítios. 
 
-Para o fazer, auxiliamo-nos do sistema de controlo de versões Git. Um repositório Git é uma pasta ./git, que reside dentro da sua pasta. Este repositório rastreia todas as alterações feitas nos ficheiros da pasta, construindo um histórico ao longo do tempo. O Git permite manter o seu repositório local em sincronismo com o seu reopsitório remoto, à medida que faz mudanças em qualquer um deles.
+Para o fazer, auxiliamo-nos do sistema de controlo de versões **Git**. Um repositório Git é uma pasta ./git, que reside dentro da sua pasta. Este repositório rastreia todas as alterações feitas nos ficheiros da pasta, construindo um histórico ao longo do tempo. O Git permite manter o seu repositório local em sincronismo com o seu reopsitório remoto, à medida que faz mudanças em qualquer um deles.
 
 <img src="https://user-images.githubusercontent.com/42048382/221050972-e514079d-a572-43d9-bd39-0b5566321e34.png" width="100px">
 
@@ -22,7 +22,7 @@ Se não estiver familiarizado com o Git, veja os seguintes videos:
 
 Consideremos que tem o seu projeto numa pasta. Ainda não tem um repositório Git associado que permita rastrear mudanças nos seus ficheiros. Vamos então criar um repositório Git:
 
-1. Se nunca o fez na maquina em que está, na consola (linha de comandos) defina a sua identidade para o git:
+1. Se nunca o fez na maquina em que está, na consola (linha de comandos) **defina a sua identidade para o git**:
     ```Bash
     $ git config --global user.name "username_usado_no_git"
     $ git config --global user.email "iniciais@meuemail.pt"
@@ -35,22 +35,27 @@ Por exemplo:
     $ git config --global user.email "lucio.studer@gmail.com"
     ```
 
-2. dentro da pasta do seu projeto, crie um repositório Git:
+2. dentro da pasta do seu projeto, **crie um repositório Git**:
     ```Bash
     $ git init
+    ```
+
+3. guarde o seu projeto no **repositório Git**:
+    ```Bash
     $ git add .
     $ git commit -m "primeiro commit"
     $ git branch -M main
     ```
-     
+
+
 ## Quero guardar o meu novo projeto no GitHub
 <img src="https://user-images.githubusercontent.com/42048382/221045425-cdfb2233-5338-429d-9fdb-e5c10cc2c172.png" width="100px">
 
-Para sincronizar pela primeira vez repositório local &rarr; repositório remoto GitHub:
+Se já fez os passos anteriores, pode sincronizar pela primeira vez o repositório local &rarr; repositório remoto GitHub da seguinte forma:
 
 1. na página do GitHub, crie um repositório remoto, com o nome <repo_name>
 
-2. sincronize os conteúdos do repositório local mo repositório remoto GitHub da seguinte forma:
+2. **sincronize os conteúdos** do repositório local mo repositório remoto GitHub da seguinte forma:
    ```Bash
     $ git remote add origin https://github.com/<username>/<repo_name.git>
     $ git push -u origin main

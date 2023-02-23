@@ -6,6 +6,8 @@ Os ficheiros do seu laboratório poderão existir em três sítios:
 
 Vamos aprender como transferir os conteúdos de e para cada uma destes sítios.
 
+<img src="https://user-images.githubusercontent.com/42048382/221047676-68547c82-d9db-42e4-aa34-24f2408224b8.png" width="100px">
+
 Se não estiver familiarizado com o Git, veja os [videos e slides sobre git](https://moodle.ensinolusofona.pt/course/view.php?id=9482#section-3). Eis o link direto para os {videos sobre git](https://educast.fccn.pt/vod/channels/1pc3vu3zkk?locale=pt) se tiver alguma dúvida.
 
 ## Criar novo repositório local

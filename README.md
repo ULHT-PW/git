@@ -29,6 +29,7 @@ Consideremos que tem o seu projeto numa pasta. Esta pasta está no seu PC ou no 
     ```
     
 Por exemplo:
+
     ```Bash
     $ git config --global user.name "luciostuder"
     $ git config --global user.email "lucio.studer@gmail.com"
@@ -42,37 +43,42 @@ Por exemplo:
     $ git branch -M main
     ```
      
-## Carregar repositório local &rarr; novo repositório remoto no GitHub
+## Quero guardar o meu novo projeto no GitHub: Sincronizar pela primeira vez repositório local &rarr; repositório remoto GitHub
 <img src="https://user-images.githubusercontent.com/42048382/221045425-cdfb2233-5338-429d-9fdb-e5c10cc2c172.png" width="100px">
 
-2. Na página do GitHub, na sua conta, crie um repositório com nome <numeroAluno-pw-labs>
+2. Na página do GitHub, na sua conta, crie um repositório, com o nome por exemplo <pw-lab1>
 
-3. carregue os conteúdos do repositório local para o repositório remoto no GitHub:
+3. sincronize os conteúdos do repositório local mo repositório remoto GitHub da seguinte forma:
    ```Bash
     $ git remote add origin https://github.com/<username>/<repo_name.git>
     $ git push -u origin main
    ```   
 
-### Sincronizar repositório local &rarr; repositorio remoto no GitHub já existente
+## Quero guardar no GitHub as mudanças que fiz ao projeto: sincroniza o repositório local &rarr; repositorio remoto GitHub
 <img src="https://user-images.githubusercontent.com/42048382/221045425-cdfb2233-5338-429d-9fdb-e5c10cc2c172.png" width="100px">
     
-Se fizer alterações no seu repositório no PythonAnywhere/PC, pode sincronizar com o repo do GitHub da segunte forma:
+Se fizer alterações no seu repositório no PythonAnywhere/PC, pode 
+    1. indicar para rastrear todos ficheiros (git add .), 
+    2. fazer uma "fotografia da pasta", com uma mensagem que sumarize o que foi alterado (git commit -m "adicionei estilos CSS") 
+    3. sincronizar as mudanças com o repo GitHub (git push)
+    
+Eis a sequencia de comandos:
    ```Bash
     $ git add .
-    $ git commit -m "primeiro commit"
+    $ git commit -m "adicionei estilos CSS"
     $ git push
    ```
         
-## "Clonar" repositório GitHub &rarr; máquina sem repositório
+## Esqueci-me do PC com o projeto em casa: clona o repositório remoto GitHub &rarr; máquina qualquer e trabalha!
 <img src="https://user-images.githubusercontent.com/42048382/221045530-175d4ee3-0c9c-4513-ab9d-cd2900987236.png" width="100px">
 
-Basta fazer um clone do que tem no GitHub para a pasta que especificar. Na máquina onde quer ter os conteúdos do repositório GitHub, faça:
+Imagine que se esqueceu do seu PC em casa, mas tem tudo sincronizado no GitHub. Para continuar o que tinha feito, fazendo um "clone" do repositorio remoto GitHub, através do seguinte comando:
 
 ```Bash
    $ git clone https://github.com/<username>/<repo_name.git>
    ```   
    
-## Sincronizar repositorio GitHub &rarr; máquina com repositório 
+## Quero atualizar no PC de casa as alterações que fiz e carreguei no GitHub: sincroniza o repositorio GitHub &rarr; máquina com repositório 
 <img src="https://user-images.githubusercontent.com/42048382/221045571-36ea2212-dc4b-491e-bd4c-565969d8324c.png" width="100px">
     
 ```Bash

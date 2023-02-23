@@ -11,7 +11,7 @@ Para o fazer, auxiliamo-nos do sistema de controlo de versões **Git**. Um repos
 
 <img src="https://user-images.githubusercontent.com/42048382/221050972-e514079d-a572-43d9-bd39-0b5566321e34.png" width="100px">
 
-Se não estiver familiarizado com o Git, veja os seguintes videos:
+**Vídeos e slides**: 
 * [criação de repo git e upload no GitHub](https://educast.fccn.pt/vod/clips/1x4q1ux6mv/streaming.html?locale=pt)
 * [clone do GitHub, edição local, upload no GitHub](https://educast.fccn.pt/vod/clips/170nrt6pya/streaming.html?locale=pt)
 * [slides](https://github.com/ULHT-PW/git/blob/main/Git%20e%20GitHub_simples.pdf)

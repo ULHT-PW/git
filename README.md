@@ -29,7 +29,7 @@ Consideremos que tem o seu projeto no PythonAnyWhere/PC mas ainda não tem nem r
     ```
      
 ### Carregar repositório local --> novo repositório remoto no GitHub
-<img src="https://user-images.githubusercontent.com/42048382/221045425-cdfb2233-5338-429d-9fdb-e5c10cc2c172.png" width="70px">
+<img src="https://user-images.githubusercontent.com/42048382/221045425-cdfb2233-5338-429d-9fdb-e5c10cc2c172.png" width="100px">
 
 2. Na página do GitHub, na sua conta, crie um repositório com nome <numeroAluno-pw-labs>
 
@@ -40,7 +40,7 @@ Consideremos que tem o seu projeto no PythonAnyWhere/PC mas ainda não tem nem r
    ```   
 
 ### Sincronizar repositório local --> repositorio remoto no GitHub já existente
-<img src="https://user-images.githubusercontent.com/42048382/221045425-cdfb2233-5338-429d-9fdb-e5c10cc2c172.png" width="70px">
+<img src="https://user-images.githubusercontent.com/42048382/221045425-cdfb2233-5338-429d-9fdb-e5c10cc2c172.png" width="100px">
     
 Se fizer alterações no seu repositório no PythonAnywhere/PC, pode sincronizar com o repo do GitHub da segunte forma:
    ```Bash
@@ -50,7 +50,7 @@ Se fizer alterações no seu repositório no PythonAnywhere/PC, pode sincronizar
    ```
         
 ### "Clonar" repositório GitHub --> máquina sem repositório
-<img src="https://user-images.githubusercontent.com/42048382/221045530-175d4ee3-0c9c-4513-ab9d-cd2900987236.png" width="70px">
+<img src="https://user-images.githubusercontent.com/42048382/221045530-175d4ee3-0c9c-4513-ab9d-cd2900987236.png" width="100px">
 
 Basta fazer um clone do que tem no GitHub para a pasta que especificar. Na máquina onde quer ter os conteúdos do repositório GitHub, faça:
 
@@ -59,7 +59,8 @@ Basta fazer um clone do que tem no GitHub para a pasta que especificar. Na máqu
    ```   
    
 ### Sincronizar repositorio GitHub --> máquina com repositório 
-<img src="https://user-images.githubusercontent.com/42048382/221045571-36ea2212-dc4b-491e-bd4c-565969d8324c.png" width="70px">
+<img src="https://user-images.githubusercontent.com/42048382/221045571-36ea2212-dc4b-491e-bd4c-565969d8324c.png" width="100px">
+    
 ```Bash
    $ git pull
    ```

@@ -1,13 +1,13 @@
 # GIT
 
-Os ficheiros do seu laboratório poderão existir em três sítios: 
+Uma pasta com os ficheiros do seu laboratório pode existir em três sítios: 
 * no PC
 * no GitHub 
 * no PythonAnyWhere
 
-Vamos aprender como transferir os conteúdos de e para cada uma destes sítios. 
+Vamos aprender como transferir os conteúdos da pasta entre estes sítios. 
 
-Para o fazer, auxiliamo-nos do sistema de controlo de versões Git. Um repositório Git é uma pasta ./git, que reside dentro da sua pasta. Este repositório rastreia todas as alterações feitas nos ficheiros da pasta, construindo um histórico ao longo do tempo. O Git permite manter o seu reposi´torio local em sincronismo com o seu reopsitório remoto, à medida que faz mudanças em qualquer um deles.
+Para o fazer, auxiliamo-nos do sistema de controlo de versões Git. Um repositório Git é uma pasta ./git, que reside dentro da sua pasta. Este repositório rastreia todas as alterações feitas nos ficheiros da pasta, construindo um histórico ao longo do tempo. O Git permite manter o seu repositório local em sincronismo com o seu reopsitório remoto, à medida que faz mudanças em qualquer um deles.
 
 <img src="https://user-images.githubusercontent.com/42048382/221050972-e514079d-a572-43d9-bd39-0b5566321e34.png" width="100px">
 
@@ -17,19 +17,18 @@ Se não estiver familiarizado com o Git, veja os seguintes videos:
 * [slides](https://github.com/ULHT-PW/git/blob/main/Git%20e%20GitHub_simples.pdf)
 
 
-## Criar novo repositório local
+## Criar um repositório Git
 <img src="https://user-images.githubusercontent.com/42048382/221045249-00bfaf04-7898-4829-bd67-947ae4f349f3.png" width="70px">
-[Vídeo: criação de repo local e sincronização com repo remoto no GitHub](https://educast.fccn.pt/vod/clips/1x4q1ux6mv/streaming.html?locale=pt)
 
-Consideremos que tem o seu projeto no PythonAnyWhere/PC mas ainda não tem nem repositório local nem remoto no GitHub. Abra uma consola e crie, dentro da pasta que quer sincronizar seus conteúdos, um repositorio git:
+Consideremos que tem o seu projeto numa pasta. Esta pasta está no seu PC ou no PythonAnyWhere. Ainda não tem um repositório Git associado que permita rastrar mudanças nos seus ficheiros. Vamos então criar um repositório Git:
 
-1. defina, na máquina em que está, a sua identidade para o git:
+1. Na consola (linha de comandos) defina, na máquina em que está, a sua identidade para o git:
     ```Bash
     $ git config --global user.name "username_usado_no_git"
     $ git config --global user.email "iniciais@meuemail.pt"
     ```
 
-2. dentro da pasta `web` crie um repositório git com os conteúdos da pasta:
+2. dentro da pasta do seu projeto, crie um repositório Git da seguinte forma:
     ```Bash
     $ git init
     $ git add .

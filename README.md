@@ -1,15 +1,21 @@
 # GIT
+
 Os ficheiros do seu laboratório poderão existir em três sítios: 
 * no PC
 * no GitHub 
 * no PythonAnyWhere
 
-Vamos aprender como transferir os conteúdos de e para cada uma destes sítios. Um repositório Git é uma pasta ./git. Este repositório rastreia todas as alterações feitas nos ficheiros da pasta, construindo um histórico ao longo do tempo.
+Vamos aprender como transferir os conteúdos de e para cada uma destes sítios. 
+
+Para o fazer, auxiliamo-nos do sistema de controlo de versões Git. Um repositório Git é uma pasta ./git, que reside dentro da sua pasta. Este repositório rastreia todas as alterações feitas nos ficheiros da pasta, construindo um histórico ao longo do tempo. O Git permite manter o seu reposi´torio local em sincronismo com o seu reopsitório remoto, à medida que faz mudanças em qualquer um deles.
 
 <img src="https://user-images.githubusercontent.com/42048382/221050972-e514079d-a572-43d9-bd39-0b5566321e34.png" width="100px">
 
+Se não estiver familiarizado com o Git, veja os seguintes videos:
+* [criação de repo git e upload no GitHub](https://educast.fccn.pt/vod/clips/1x4q1ux6mv/streaming.html?locale=pt)
+* [clone do GitHub, edição local, upload no GitHub](https://educast.fccn.pt/vod/clips/170nrt6pya/streaming.html?locale=pt)
+* [slides]()
 
-Se não estiver familiarizado com o Git, veja os [videos e slides sobre git](https://moodle.ensinolusofona.pt/course/view.php?id=9482#section-3). Eis o link direto para os [videos sobre git](https://educast.fccn.pt/vod/channels/1pc3vu3zkk?locale=pt) se tiver alguma dúvida
 
 ## Criar novo repositório local
 <img src="https://user-images.githubusercontent.com/42048382/221045249-00bfaf04-7898-4829-bd67-947ae4f349f3.png" width="70px">

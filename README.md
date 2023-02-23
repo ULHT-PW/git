@@ -1,8 +1,8 @@
 # GIT
 Os ficheiros do seu laboratório poderão existir em três sítios: 
-* no PythonAnyWhere
+* no PC
 * no GitHub 
-* no PC. 
+* no PythonAnyWhere
 
 Vamos aprender como transferir os conteúdos de e para cada uma destes sítios.
 

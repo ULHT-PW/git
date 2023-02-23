@@ -9,15 +9,15 @@ Se não estiver familiarizado com o Git, veja os [videos e slides sobre git](htt
 
 Consideremos que tem o seu projeto no PythonAnyWhere/PC e ainda não tem repositório. Passos para colocar os ficheiros no GitHub: 
 
-1. Na sua conta de PythonAnyWhere/PC, abra uma consola (bash console) e crie, dentro da pasta `web`, um repositorio git e sincronize-o com o GitHub, da segunte forma. Para tal siga os seguitnes passos:
+1. Na sua conta de PythonAnyWhere/PC, abra uma consola (bash console) e crie, dentro da pasta `web`, um repositorio git e sincronize-o com o GitHub, da seguinte forma:
 
-    1. defina a sua identidade para o git:
+    1. defina, na máquina em que está, a sua identidade para o git:
    ```Bash
     $ git config --global user.name "username_usado_no_git"
     $ git config --global user.email "iniciais@meuemail.pt"
    ```
     
-    2. dentro da sua pasta `web` crie um repositório git com os conteúdos da pasta `:
+    2. dentro da pasta `web` crie um repositório git com os conteúdos da pasta:
    ```Bash
     $ git init
     $ git add .
@@ -27,7 +27,7 @@ Consideremos que tem o seu projeto no PythonAnyWhere/PC e ainda não tem reposit
         
 2. Na sua conta de GitHub, crie um repositório com nome <numeroAluno-pw-labs>
 
-3. carregue os conteúdos da sua pasta `web` do PythonAnywhere para o seu repositório remoto no GitHub:
+3. carregue os conteúdos do repositório local para o repositório remoto no GitHub:
    ```Bash
     $ git remote add origin https://github.com/<username>/<repo_name.git>
     $ git push -u origin masater

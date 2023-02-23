@@ -4,15 +4,16 @@ Os ficheiros do seu laboratório poderão existir em três sítios:
 * no GitHub 
 * no PythonAnyWhere
 
-Vamos aprender como transferir os conteúdos de e para cada uma destes sítios.
+Vamos aprender como transferir os conteúdos de e para cada uma destes sítios. Um repositório Git é uma pasta ./git. Este repositório rastreia todas as alterações feitas nos ficheiros da pasta, construindo um histórico ao longo do tempo.
 
 <img src="https://user-images.githubusercontent.com/42048382/221050972-e514079d-a572-43d9-bd39-0b5566321e34.png" width="100px">
 
 
-Se não estiver familiarizado com o Git, veja os [videos e slides sobre git](https://moodle.ensinolusofona.pt/course/view.php?id=9482#section-3). Eis o link direto para os [videos sobre git](https://educast.fccn.pt/vod/channels/1pc3vu3zkk?locale=pt) se tiver alguma dúvida.
+Se não estiver familiarizado com o Git, veja os [videos e slides sobre git](https://moodle.ensinolusofona.pt/course/view.php?id=9482#section-3). Eis o link direto para os [videos sobre git](https://educast.fccn.pt/vod/channels/1pc3vu3zkk?locale=pt) se tiver alguma dúvida
 
 ## Criar novo repositório local
 <img src="https://user-images.githubusercontent.com/42048382/221045249-00bfaf04-7898-4829-bd67-947ae4f349f3.png" width="70px">
+[Vídeo: criação de repo local e sincronização com repo remoto no GitHub](https://educast.fccn.pt/vod/clips/1x4q1ux6mv/streaming.html?locale=pt)
 
 Consideremos que tem o seu projeto no PythonAnyWhere/PC mas ainda não tem nem repositório local nem remoto no GitHub. Abra uma consola e crie, dentro da pasta que quer sincronizar seus conteúdos, um repositorio git:
 

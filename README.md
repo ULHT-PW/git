@@ -17,7 +17,7 @@ Se não estiver familiarizado com o Git, veja os seguintes videos:
 * [slides](https://github.com/ULHT-PW/git/blob/main/Git%20e%20GitHub_simples.pdf)
 
 
-## Quero criar um repositório Git para o lab que fiz no meu PC
+# Quero criar um repositório Git para o lab que fiz no meu PC
 <img src="https://user-images.githubusercontent.com/42048382/221045249-00bfaf04-7898-4829-bd67-947ae4f349f3.png" width="70px">
 
 Consideremos que tem o seu projeto numa pasta. Ainda não tem um repositório Git associado que permita rastrear mudanças nos seus ficheiros. Vamos então criar um repositório Git:
@@ -48,7 +48,7 @@ Por exemplo:
     ```
 
 
-## Quero guardar o meu novo projeto no GitHub
+# Quero guardar o meu novo projeto no GitHub
 <img src="https://user-images.githubusercontent.com/42048382/221045425-cdfb2233-5338-429d-9fdb-e5c10cc2c172.png" width="100px">
 
 Se já fez os passos anteriores, pode sincronizar pela primeira vez o repositório local &rarr; repositório remoto GitHub da seguinte forma:

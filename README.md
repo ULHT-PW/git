@@ -28,8 +28,8 @@ Consideremos que tem o seu projeto numa pasta. Esta pasta está no seu PC ou no 
     $ git config --global user.email "iniciais@meuemail.pt"
     ```
     
-    por exemplo:
-        ```Bash
+Por exemplo:
+    ```Bash
     $ git config --global user.name "luciostuder"
     $ git config --global user.email "lucio.studer@gmail.com"
     ```

@@ -46,7 +46,7 @@ Consideremos que tem o seu projeto no PythonAnyWhere/PC mas ainda não tem nem r
     
 Se fizer alterações no seu repositório no PythonAnywhere/PC, pode sincronizar com o repo do GitHub da segunte forma:
    ```Bash
-   $ git add .
+    $ git add .
     $ git commit -m "primeiro commit"
     $ git push
    ```

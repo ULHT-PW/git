@@ -7,7 +7,10 @@ O seu laboratório (lab) de PW é uma pasta com ficheiros e pastas. O seu lab po
 
 **Objetivo**:  aprender como transferir o lab entre estes sítios. 
 
-Para o fazer, auxiliamo-nos do sistema de controlo de versões **Git**. Um repositório Git é uma pasta ./git, que reside dentro da sua pasta. Este repositório rastreia todas as alterações feitas nos ficheiros da pasta, construindo um histórico ao longo do tempo. O Git permite manter o seu repositório local em sincronismo com o seu reopsitório remoto, à medida que faz mudanças em qualquer um deles.
+Para o fazer, auxiliamo-nos do sistema de controlo de versões **Git**:
+* Um repositório Git é uma pasta ./git, que reside dentro da sua pasta. 
+* Este repositório rastreia todas as alterações feitas nos ficheiros da pasta, construindo um histórico ao longo do tempo. 
+* O Git permite manter o seu repositório local em sincronismo com o seu reopsitório remoto, à medida que faz mudanças em qualquer um deles.
 
 <img src="https://user-images.githubusercontent.com/42048382/221050972-e514079d-a572-43d9-bd39-0b5566321e34.png" width="100px">
 

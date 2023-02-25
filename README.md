@@ -38,7 +38,7 @@ Por exemplo:
     $ git config --global user.email "lucio.studer@gmail.com"
     ```
 
-2. dentro da pasta do seu projeto, **crie um repositório Git**:
+2. **dentro da pasta do seu projeto (pasta web), crie um repositório Git**:
     ```Bash
     $ git init
     ```

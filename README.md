@@ -1,6 +1,6 @@
 # Git
 
-#### Enquadramento 
+### Enquadramento 
 
 O seu laboratório (lab) de PW é uma pasta com ficheiros e pastas. O seu lab pode estar em três sítios: 
 * no PC
@@ -8,8 +8,10 @@ O seu laboratório (lab) de PW é uma pasta com ficheiros e pastas. O seu lab po
 * no PythonAnyWhere
 
 
-#### Objetivo: aprender a transferir o lab entre estes sítios. 
+### Objetivo
+O objetivo desta página é aprender a transferir o lab entre estes sítios. 
 
+### Metodologia
 
 Para o fazer, auxiliamo-nos do sistema de controlo de versões **Git**:
 * Um repositório Git é uma pasta ./git, que reside dentro da sua pasta. 

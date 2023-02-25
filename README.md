@@ -58,7 +58,7 @@ Se já fez os passos anteriores, pode sincronizar pela primeira vez o repositór
 
 1. na página do GitHub, crie um repositório remoto <repo_name>
 
-2. **sincronize os conteúdos** no repositório remoto GitHub:
+2. **sincronize os conteúdos** no repositório remoto GitHub. Execute na consola, dentro da pasta do seu projeto (nos primeiros labs é onde estão os ficheiros HTML), o seguinte comando:
    ```Bash
     $ git remote add origin https://github.com/<username>/<repo_name.git>
     $ git push -u origin main
@@ -72,14 +72,14 @@ Se fizer alterações em ficheiros da sua pasta, pode:
     2. fazer uma "fotografia dos ficheiros rastreados" da pasta (git commit -m "adicionei estilos CSS"), com mensagem informativa do que foi alterado  
     3. sincronizar as mudanças com o repo GitHub (git push)
     
-Eis a sequencia de comandos:
+Eis a sequencia de comandos a realizar na consola, **dentro da pasta do seu laboratório (onde está a pasta .git/)**:
    ```Bash
     $ git add .
     $ git commit -m "adicionei estilos CSS"
     $ git push
    ```
         
-# Esqueci-me do PC com o projeto em casa, mas está sincronizado no GitHub
+# Esqueci-me do PC com o projeto em casa, mas o projeto está no GitHub
 <img src="https://user-images.githubusercontent.com/42048382/221045530-175d4ee3-0c9c-4513-ab9d-cd2900987236.png" width="100px">
 
 Basta fazer um "clone" do repositorio remoto GitHub &rarr; seu PC:

@@ -26,7 +26,7 @@ Para o fazer, auxiliamo-nos do sistema de controlo de versões **Git**:
 * [slides](https://github.com/ULHT-PW/git/blob/main/Git%20e%20GitHub_simples.pdf)
 
 
-# Quero criar um repositório Git com o lab que fiz no meu PC
+## 1. Quero criar um repositório Git com o lab que fiz no meu PC
 <img src="https://user-images.githubusercontent.com/42048382/221045249-00bfaf04-7898-4829-bd67-947ae4f349f3.png" width="70px">
 
 Consideremos que tem o seu projeto numa pasta. Ainda não tem um repositório Git associado que permita rastrear mudanças nos seus ficheiros. Vamos então criar um repositório Git:
@@ -57,7 +57,7 @@ Por exemplo:
     ```
 
 
-# Quero guardar o meu novo projeto no GitHub
+## 2. Quero guardar o meu novo projeto no GitHub
 <img src="https://user-images.githubusercontent.com/42048382/221045425-cdfb2233-5338-429d-9fdb-e5c10cc2c172.png" width="100px">
 
 Se já fez os passos anteriores, pode sincronizar pela primeira vez o repositório local &rarr; repositório remoto GitHub:
@@ -70,7 +70,7 @@ Se já fez os passos anteriores, pode sincronizar pela primeira vez o repositór
     $ git push -u origin main
    ```   
 
-# Quero guardar no GitHub as mudanças que fiz ao projeto no PC
+## 3. Quero guardar no GitHub as mudanças que fiz ao projeto no PC
 <img src="https://user-images.githubusercontent.com/42048382/221045425-cdfb2233-5338-429d-9fdb-e5c10cc2c172.png" width="100px">
     
 Se fizer alterações em ficheiros da sua pasta, pode: 
@@ -85,7 +85,7 @@ Eis a sequencia de comandos a realizar na consola, **dentro da pasta do seu labo
     $ git push
    ```
         
-# Esqueci-me do PC com o projeto em casa, mas o projeto está no GitHub
+## 4. Esqueci-me do PC com o projeto em casa, mas o projeto está no GitHub
 <img src="https://user-images.githubusercontent.com/42048382/221045530-175d4ee3-0c9c-4513-ab9d-cd2900987236.png" width="100px">
 
 Basta fazer um "clone" do repositorio remoto GitHub &rarr; seu PC:
@@ -94,7 +94,7 @@ Basta fazer um "clone" do repositorio remoto GitHub &rarr; seu PC:
    $ git clone https://github.com/<username>/<repo_name.git>
    ```   
    
-# Quero atualizar no PC de casa as alterações que fiz e carreguei no GitHub 
+## 5. Quero atualizar no PC de casa as alterações que fiz e carreguei no GitHub 
 <img src="https://user-images.githubusercontent.com/42048382/221045571-36ea2212-dc4b-491e-bd4c-565969d8324c.png" width="100px">
 
 Sincronize o repositorio GitHub &rarr; seu PC com repositório desatualizado:

@@ -2,14 +2,14 @@
 
 ### Enquadramento 
 
-O seu laboratório (lab) de PW é uma pasta com ficheiros e pastas. O seu lab pode estar em três sítios: 
+Considere um projeto/lab que está numa pasta, contendo ficheiros e pastas. O seu projeto pode estar em três sítios: 
 * no PC
 * no GitHub 
 * no PythonAnyWhere
 
 
 ### Objetivo
-O objetivo desta página é aprender a transferir o lab entre estes sítios. 
+O objetivo desta página é aprender a transferir o projeto/lab entre estes sítios. 
 
 ### Metodologia
 

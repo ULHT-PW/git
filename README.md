@@ -31,6 +31,21 @@ Para o fazer, auxiliamo-nos do sistema de controlo de versões **Git**:
 Veja o [video-tutorial](https://educast.fccn.pt/vod/clips/29lxpwwtds/html5.html?locale=pt) que explica todos os passos necessários:
 
 
+# Criação de repositório GitHub com o seu Projeto do PythonAnyWhere
+
+1. veja o [vídeo](https://github.com/ULHT-PW/git/blob/main/README.md) com todos os detalhes de como o fazer.
+2. crie, no GitHub, um repositório para o seu projeto com o nome axxxxxx-projeto-pw
+3. carregue o projeto do PythonAnyWhere para esse repositório. Para tal, abra a consola no PyhtonAnyWhere, e na pasta onde está o `manage.py` execute os seguintes comandos:
+   * `git init`
+   * `git add *`
+   * `git commit -m "projeto final"`
+   * `git branch -M main`
+   * `git remote add origin https://github.com/axxxxxx-projeto-pw`  # especifique o url do repositório
+   * git push -u origin main
+   * quando lhe for pedido o username e a password:
+       * insira o seu username do github
+       * insira como password um token gerado na sua conta de GitHub, em Settings>Developper Settings>Personal Access tokens>tokens classic>generate new token classic, dando um nome ao token e selecionando a caixa "repo". Veja como gerar o token no [vídeo](https://github.com/ULHT-PW/git/blob/main/README.md), capítulo "criação de token como password para git"
+
 
 ## 1. Quero criar um repositório Git com o lab que fiz no meu PC
 <img src="https://user-images.githubusercontent.com/42048382/221045249-00bfaf04-7898-4829-bd67-947ae4f349f3.png" width="70px">

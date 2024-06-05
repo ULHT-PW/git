@@ -27,8 +27,6 @@ Para o fazer, auxiliamo-nos do sistema de controlo de versões **Git**:
 
 ## 1. Quero pôr o meu projeto PythonAnyWhere no Github
 
-![Image Alt text](/pythonanywhere-git.svg)
-
 Veja o [video-tutorial](https://educast.fccn.pt/vod/clips/29lxpwwtds/html5.html?locale=pt) que explica todos os passos necessários:
 
 1. crie, no GitHub, um repositório para o seu projeto com o nome axxxxxx-projeto-pw

@@ -14,8 +14,8 @@ O objetivo desta página é aprender a transferir o projeto/lab entre estes sít
 ### Metodologia
 
 Para o fazer, auxiliamo-nos do sistema de controlo de versões **Git**:
-* Um repositório Git é uma pasta ./git, que reside dentro da sua pasta. 
-* Este repositório rastreia todas as alterações feitas nos ficheiros da pasta, construindo um histórico ao longo do tempo. 
+* Um repositório Git é uma pasta ./git (invisível), que reside dentro da sua pasta. 
+* Este repositório rastreia/segue todas as alterações feitas nos ficheiros da pasta, construindo um histórico ao longo do tempo. 
 * O Git permite manter o seu repositório local em sincronismo com o seu repositório remoto, à medida que faz mudanças em qualquer um deles.
 
 <img src="https://user-images.githubusercontent.com/42048382/221050972-e514079d-a572-43d9-bd39-0b5566321e34.png" width="100px">
@@ -40,9 +40,11 @@ Veja o [video-tutorial](https://educast.fccn.pt/vod/clips/29lxpwwtds/html5.html?
    * `git push -u origin main`
    * quando lhe for pedido o username e a password:
        * insira o seu username do github
-       * insira como password um token gerado na sua conta de GitHub, em Settings>Developper Settings>Personal Access tokens>tokens classic>generate new token classic, dando um nome ao token e selecionando a caixa "repo". Veja como gerar o token no [vídeo](https://github.com/ULHT-PW/git/blob/main/README.md), capítulo "criação de token como password para git"
+       * insira como password um token que deverá gerar na sua conta de GitHub:
+          * em `Settings > Developper Settings > Personal Access tokens > tokens classic > generate new token classic`, dê um nome ao token,  selecione a caixa "repo", e grave. Copie o Token gerado.
+          * Veja como gerar o token no [vídeo](https://github.com/ULHT-PW/git/blob/main/README.md), capítulo "criação de token como password para git"
 
-Se quiser trabalhar no seu projeto localmente no seu PC, pode fazer um clone do repositório como explicado a seguir, assim como no vídeo.
+Se quiser trabalhar no projeto localmente no seu PC, pode fazer um clone do repositório como explicado a seguir, assim como no vídeo.
 
 ## 2. Quero criar um repositório Git com o lab que fiz no meu PC
 <img src="https://user-images.githubusercontent.com/42048382/221045249-00bfaf04-7898-4829-bd67-947ae4f349f3.png" width="70px">

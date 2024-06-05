@@ -21,6 +21,7 @@ Para o fazer, auxiliamo-nos do sistema de controlo de versões **Git**:
 <img src="https://user-images.githubusercontent.com/42048382/221050972-e514079d-a572-43d9-bd39-0b5566321e34.png" width="100px">
 
 **Vídeos e slides**: 
+* [criação de projeto no PythonAnyWhere e sincronização com Github](https://educast.fccn.pt/vod/clips/29lxpwwtds/html5.html?locale=pt) 
 * video 7 min sobre [criação de repo git e upload no GitHub](https://educast.fccn.pt/vod/clips/1x4q1ux6mv/streaming.html?locale=pt)
 * video (7 min) sobre [clone do GitHub, edição local, upload no GitHub](https://educast.fccn.pt/vod/clips/170nrt6pya/streaming.html?locale=pt)
 * [slides](https://github.com/ULHT-PW/git/blob/main/Git%20e%20GitHub_simples.pdf)

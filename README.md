@@ -1,5 +1,4 @@
-![Copy of pythonanywhere drawio](https://github.com/ULHT-PW/git/assets/42048382/7f3f7ebc-9d19-4a44-af7c-70e1ffe4ca5c)# Git
-
+# GIT
 ### Enquadramento 
 
 Considere um projeto/lab que está numa pasta, contendo ficheiros e pastas. O seu projeto pode estar em três sítios: 

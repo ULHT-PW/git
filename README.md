@@ -25,7 +25,9 @@ Para o fazer, auxiliamo-nos do sistema de controlo de versões **Git**:
 * video (7 min) sobre [clone do GitHub, edição local, upload no GitHub](https://educast.fccn.pt/vod/clips/170nrt6pya/streaming.html?locale=pt)
 * [slides](https://github.com/ULHT-PW/git/blob/main/Git%20e%20GitHub_simples.pdf)
 
-## 1. Quero pôr o meu projeto PythonAnyWhere no Github
+## 1. Quero pôr  no Github o meu projeto que está no PythonAnyWhere
+
+![image](/pythonanywhere-git.svg)
 
 Veja o [video-tutorial](https://educast.fccn.pt/vod/clips/29lxpwwtds/html5.html?locale=pt) que explica todos os passos necessários:
 

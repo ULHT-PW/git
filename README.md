@@ -16,7 +16,7 @@ O objetivo desta página é aprender a transferir o projeto/lab entre estes sít
 Para o fazer, auxiliamo-nos do sistema de controlo de versões **Git**:
 * Um repositório Git é uma pasta ./git, que reside dentro da sua pasta. 
 * Este repositório rastreia todas as alterações feitas nos ficheiros da pasta, construindo um histórico ao longo do tempo. 
-* O Git permite manter o seu repositório local em sincronismo com o seu reopsitório remoto, à medida que faz mudanças em qualquer um deles.
+* O Git permite manter o seu repositório local em sincronismo com o seu repositório remoto, à medida que faz mudanças em qualquer um deles.
 
 <img src="https://user-images.githubusercontent.com/42048382/221050972-e514079d-a572-43d9-bd39-0b5566321e34.png" width="100px">
 
@@ -26,7 +26,7 @@ Para o fazer, auxiliamo-nos do sistema de controlo de versões **Git**:
 * video (7 min) sobre [clone do GitHub, edição local, upload no GitHub](https://educast.fccn.pt/vod/clips/170nrt6pya/streaming.html?locale=pt)
 * [slides](https://github.com/ULHT-PW/git/blob/main/Git%20e%20GitHub_simples.pdf)
 
-## 1. Quero criar um projeto no PythonAnyWhere e criar repositório no Github onde fique sincronizado
+## 1. Quero pôr o meu projeto PythonAnyWhere no Github
 
 Veja o [video-tutorial](https://educast.fccn.pt/vod/clips/29lxpwwtds/html5.html?locale=pt) que explica todos os passos necessários:
 

@@ -26,6 +26,11 @@ Para o fazer, auxiliamo-nos do sistema de controlo de versões **Git**:
 * video (7 min) sobre [clone do GitHub, edição local, upload no GitHub](https://educast.fccn.pt/vod/clips/170nrt6pya/streaming.html?locale=pt)
 * [slides](https://github.com/ULHT-PW/git/blob/main/Git%20e%20GitHub_simples.pdf)
 
+## 0. Quero criar um projeto no PythonAnyWhere e criar repositório no Github onde fique sincronizado
+
+Veja o [video-tutorial](https://educast.fccn.pt/vod/clips/29lxpwwtds/html5.html?locale=pt) que explica todos os passos necessários:
+
+
 
 ## 1. Quero criar um repositório Git com o lab que fiz no meu PC
 <img src="https://user-images.githubusercontent.com/42048382/221045249-00bfaf04-7898-4829-bd67-947ae4f349f3.png" width="70px">

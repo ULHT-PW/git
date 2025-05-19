@@ -1,8 +1,10 @@
 # GIT
 ### Enquadramento 
 
-Considere um projeto/lab que está numa pasta, contendo ficheiros e pastas. O seu projeto pode estar em três sítios: 
-* no PC
+![image](https://github.com/user-attachments/assets/c6765815-e9cd-44a3-aed2-62044196bdc8)
+
+Considere uma pasta com um projeto (conjunto de ficheiros e pastas). Pode estar em vários sítios: 
+* no seu PC
 * no GitHub 
 * no PythonAnyWhere
 
@@ -25,7 +27,7 @@ Para o fazer, auxiliamo-nos do sistema de controlo de versões **Git**:
 * video (7 min) sobre [clone do GitHub, edição local, upload no GitHub](https://educast.fccn.pt/vod/clips/170nrt6pya/streaming.html?locale=pt)
 * [slides](https://github.com/ULHT-PW/git/blob/main/Git%20e%20GitHub_simples.pdf)
 
-## 1. Quero pôr  no Github o meu projeto que está no PythonAnyWhere
+## 1. Quero pôr o meu projeto PythonAnyWhere no Github  
 
 ![image](/pythonanywhere-git.svg)
 
